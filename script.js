@@ -16,7 +16,9 @@ let books = [
     book1,
     new Book("The Hobbit", "J.R.R. Tolkien", 1937, "Fantasy"),
     new Book("Atomic Habits", "James Clear", 2018, "Self Help"),
-    new Book("The Alchemist", "Paulo Coelho", 1988, "Adventure")
+    new Book("The Alchemist", "Paulo Coelho", 1988, "Adventure"),
+    new Book("A Game of Thrones", "George R.R. Martin", 1996, "Fantasy"),
+    new Book("The Dance with Dragon", "George R.R. Martin", 2011, "Adventure")
 ];
 
 function displayBooks() {

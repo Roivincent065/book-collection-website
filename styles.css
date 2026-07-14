@@ -1,9 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
     text-align: center;
     background: linear-gradient(#0f172a, #1e293b);
     color: #fff;
+}
+
+#bookList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .container {
@@ -46,7 +57,7 @@ button:hover {
 }
 
 .book {
-    width: 100%;
+    width: 600px;
     border: 1px solid #475569;
     padding: 10px;
     margin-top: 10px;

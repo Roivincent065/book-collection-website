@@ -34,7 +34,15 @@ button {
     margin: 5px;
     cursor: pointer;
     width: 80%;
+    border: 1px solid black;
+    background-color: #fff;
     border-radius: 10px;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    border-color: white;
 }
 
 .book {
